@@ -1,0 +1,96 @@
+/* 
+    Document   : estilos
+    Created on : 11-oct-2012, 18:32:26
+    Author     : israel parra
+    Description:
+        Purpose of the stylesheet follows.
+        +-------implementado para fines de aprendizaje 14/07/14 Luis Perez
+*/
+#contenedor{
+    min-height: 500px;
+    background-color: gainsboro;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#individual{
+    float: left;
+    margin: 15px;
+    background-color: beige;
+    padding: 10px;
+}
+select{
+    width: 115px;
+}
+label{
+    display: block;
+}
+#paginacion{
+    margin: 30px 0px 30px 5px;
+    padding: 3px;
+    background-color: #333;
+    color: #eee
+}
+#paginacion a{
+    background-color: #E13300;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1px;
+    border-radius: 4px;
+    padding: 4px
+}
+#productoAgregado{
+    padding: 5px 20px 5px 20px;
+    background-color: turquoise;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 22px;
+}
+#contenidoCarrito{
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #990000;
+    margin: 15px 0px 30px 10px;
+}
+#contenidoCarrito table{
+    width: 380px;
+}
+th{
+    padding: 15px;
+    background-color: #444;
+}
+#contenidoCarrito table td{
+    text-align: center;
+}
+#contenidoCarrito table th{
+    text-align: center;
+}
+legend{
+    margin-left: 125px;
+}
+#subcontenedor input[type=submit]{
+    background-color: gold;
+    border-radius: 5px;
+}
+#subcontenedor input[type=submit]:hover{
+    background-color: goldenrod;
+}
+#eliminarCarrito a{
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+}
+#eliminar a{
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+}
+#eliminar a:hover{
+    text-decoration: underline;
+}
+#total{
+    background-color: #333;
+    color: #fff;
+}
