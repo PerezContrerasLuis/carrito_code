@@ -38,8 +38,10 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "catalogo";
 $route['404_override'] = '';
+$route['catalogo/pagina/(:num)'] = 'catalogo';//cuando no sea la primera página
+$route['catalogo/pagina'] = 'catalogo';//cuando sea la primera página
 
 
 /* End of file routes.php */
