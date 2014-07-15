@@ -37,7 +37,7 @@
 |
 */
 
-$autoload['packages'] = array('session','cart','database','form_validation');
+$autoload['packages'] = array();
 
 
 /*
@@ -52,7 +52,7 @@ $autoload['packages'] = array('session','cart','database','form_validation');
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('session','cart','database','form_validation');
 
 
 /*
